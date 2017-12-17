@@ -2,7 +2,7 @@ String in, out;
 int total = 0;
 int ldrPin=A2;
 int ldrDeger=0;
-int esikDeger=300; // bunun yerine daha uygun bir belirleyebilirsiniz.
+int esikDeger=300; 
 
 void setup() {
   pinMode(8, INPUT);
