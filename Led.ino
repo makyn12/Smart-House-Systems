@@ -31,8 +31,6 @@ void loop() {
     delay(1000);
     analogWrite(A1, 0);
   } else if (digitalRead(8) == LOW) {
-    while (digitalRead(7) == HIGH) {
-    }
     analogWrite(A0, 255);
     Serial.print("Cikis Yapildi ");
     total--;
@@ -50,8 +48,6 @@ void loop() {
   }else{
     digitalWrite(12, LOW);
      if (digitalRead(7) == LOW) {
-    while (digitalRead(8) == HIGH) {
-    }
     analogWrite(A1, 255);
     
     Serial.print("Giris Yapildi ");
